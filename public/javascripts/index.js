@@ -7,7 +7,7 @@ var map = new L.Map('map'),
     osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
     osmLayer = new L.TileLayer(osmUrl, {minZoom: 8, maxZoom: 20, attribution: osmAttrib});
 
-var ll = [57.04264, 9.91881];
+var ll = [25.0623645, 121.546503];
 map.setView(ll,12);
 map.addLayer(osmLayer);
 
